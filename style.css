@@ -1,0 +1,171 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand{
+    font-size: 24px;
+}
+
+.navbar-nav a{
+    border-color: #FF5C00;
+    font-size: 18px;
+}
+
+.section-hero{
+    margin-top: 90px;
+}
+
+.section-hero img{
+    width: 580px;
+    height: 530px;
+}
+
+.section-hero h1{
+    font-size: 56px;
+    line-height: 81px;
+}
+
+.section-hero a{
+    box-shadow: 5px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    background-color: #FF5C00;
+}
+
+.section-hero a:hover{
+    background-color: #cf5006;
+}
+
+.section-hero .col-lg-6 p{
+    line-height: 35px;
+    font-size: 18px;
+}
+
+.section-hero .col-2 img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 6px;
+}
+
+.section-hero .col-2{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 32px;
+    margin-top: 15px;
+}
+
+.section-footer footer{
+    font-size: 21px;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+@media screen and (max-width:992px) {
+    .navbar-nav {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .navbar-nav .my-button{
+        margin-top: 15px;
+    }
+
+    .section-hero img{
+        width: 450px;
+        height: 450px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+    
+    .section-hero h1{
+        font-size: 42px;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .section-hero .col-lg-6 p{
+        text-align: center;
+    }
+
+    .section-hero .col-2 p{
+        text-align: center;
+    }
+
+    .section-hero .my-button{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .section-hero{
+        margin-top: 50px;
+    }
+
+    .section-hero img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .section-hero .col-2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .navbar li{
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .navbar-nav .my-button{
+        text-align: center;
+        padding: 5px 20px;
+        margin-top: 10px;
+    }
+
+    .section-hero br{
+        display: none;
+    }
+
+    .section-hero{
+        margin-top: 50px;
+    }
+
+    .section-hero img{
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .section-hero h1{
+        text-align: center;
+        font-size: 32px;
+        line-height: normal;
+        margin-top: 20px;
+    }
+
+    .section-hero .col-lg-6 p{
+        line-height: normal;
+        text-align: center;
+    }
+
+    .section-hero .col-2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .section-hero .my-button{
+        text-align: center;
+    }
+}
