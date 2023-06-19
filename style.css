@@ -35,6 +35,11 @@ body{
     background-color: #cf5006;
 }
 
+.section-hero .col-2{
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .section-hero .col-lg-6 p{
     line-height: 35px;
     font-size: 18px;
